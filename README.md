@@ -56,7 +56,11 @@ Have NodeJS and Python (pip installation) installed on your machine.
    ```sh
    git clone https://github.com/akhlxd//automotive_data_analysis.git
    ```
-2. Install NPM packages for backend
+2. Get the package.json file 
+   ```sh
+   npm init
+   ```
+4. Install NPM packages for backend
    ```sh
    npm install
    ```
