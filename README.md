@@ -66,13 +66,8 @@ Have latest versions of NodeJS and Python (pip installation) installed on your m
    ```
 4. Start the server
    ```sh
-   node index
+   npm run dev
    ```
-   or 
-   ```sh
-   nodemon index
-   ```
-   if u have nodemon installed
 5. You should get a console log saying 'Server started on port 5000', you can view your website on [http://localhost:5000](http://localhost:5000)
 
 ## Gallery
