@@ -1,7 +1,7 @@
 # <p align ="center" >CARtify</p>
 ## <p align ="center" >Test your car's performance before you build it</p>
 
-<p align ="center" ><img src="https://i.imgur.com/TmY0Fp9.jpg" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/6hz7GmZ.png" height="350px" alt="Homepage"/></p>
 
 ## Table of Contents 📕
 
@@ -77,4 +77,4 @@ Have NodeJS and Python (pip installation) installed on your machine.
 
 
 ## Conclusion
-This one month was a great learning expreience for me. I went into this program knwing next to nothing about web development, but now I have successfully created and implemented my first web based app. I am especially thankful to my mentor Mr. Zeeshan Vohra () for his continuous guidance throughout this project. 
+This one month was a great learning expreience for me. I went into this program knwing next to nothing about web development, but now I have successfully created and implemented my first web based app. I am especially thankful to my mentor Mr. Zeeshan Vohra (https://github.com/zeeshanv55) for his continuous guidance throughout this project. 
