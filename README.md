@@ -54,7 +54,7 @@ Have latest versions of NodeJS and Python (pip installation) installed on your m
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/akhlxd//automotive_data_analysis.git
+   git clone https://github.com/akhlxd/cartify_engage22.git
    ```
 2 Install NPM packages for backend
    ```sh
