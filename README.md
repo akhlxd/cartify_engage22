@@ -43,7 +43,7 @@
 * Edge case detection and filter out values out of bound(negative values)
 
 ## Getting Started
-Have NodeJS and Python (pip installation) installed on your machine.
+Have latest versions of NodeJS and Python (pip installation) installed on your machine.
 
 ### Prerequisistes
 
