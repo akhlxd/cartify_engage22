@@ -1,0 +1,56 @@
+<nav class='navbar bg-light'>
+  <div class='container-fluid'>
+    <a class='navbar-brand' href='/'>CARtify</a>
+  </div>
+</nav>
+<div id="formdiv">
+    <section class="container-fluid" id="form">
+
+        <h2 id="mainHeading">Estimate the price of your future car build</h2>
+
+        <form action="/" method="POST"> 
+
+            <div class="form-group mb-4 mb-sm-3">
+                <div class="field">
+              <label for="budget" class="label">Consumer Segment</label>
+                  <select  name="budget" id="budget" class="form-control" required >
+                    <option value="budget" disabled selected>Please your target consumer budget</option>
+                    <option value="1">less than Rs. 10,00,000</option>
+                    <option value="2">Rs. 10,00,000 - Rs. 35,00,000</option>
+                    <option value="3">Rs. 35,00,000 - Rs. 50,00,000</option>
+                    <option value="4">Rs. 50,00,000 - Rs. 75,00,000</option>
+                    <option value="5">Rs. 75,00,000 - Rs. 1,00,00,000</option>
+                    <option value="6">more than Rs. 1,00,00,000</option>
+                  </select>
+              
+                </div>
+                <div class=" field">
+                <label for="body_t" class="label">Body Type</label>
+                  <select  name="body_t" id="body_t" class="form-control" required >
+                    <option value="budget" disabled selected>Please the body type of your car</option>
+                    <option value="1">Hatchback</option>
+                    <option value="2">MPV</option>
+                    <option value="3">MUV</option>
+                    <option value="4">SUV</option>
+                    <option value="5">Sedan</option>
+                    <option value="6">Crossover</option>
+                    <option value="7">Coupe</option>
+                    <option value="8">Sports, Hatchback</option>
+                    <option value="9">Convertible</option>
+                    <option value="10">Sedan, Coupe</option>
+                    <option value="11">Sports</option>
+                    <option value="12">Crossover, SUV</option>
+                    <option value="13">SUV, Crossover</option>
+                    <option value="14">Sedan, Crossover</option>
+                    <option value="15">Sports, Convertible</option>
+                    <option value="16">Coupe, Convertible</option>
+                  </select>
+                </div>
+            </div>
+            <div class="row">
+            <div class="d-flex justify-content-end align-items-end mx-0 mt-2">
+                <button type="submit" class="btn btn-outline-primary" id="reg">Next </button>
+            </div>
+        </form>
+    </section>
+</div>

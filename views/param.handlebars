@@ -1,0 +1,169 @@
+<nav class='navbar bg-light'>
+  <div class='container-fluid'>
+    <a class='navbar-brand' href='/'>CARtify</a>
+  </div>
+</nav>
+<div id="formdiv">
+    <section class="container-fluid" id="form">
+
+        <h2 id="mainHeading">Please fill the details of your car</h2>
+
+        <form action="/feat" method="POST"> 
+
+            <div class="form-group mb-4 mb-sm-3">
+                {{!-- <div class="field"> --}}
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="disp" class="label">Displacement</label>
+                <input name="disp", type="number" id="num" step="any" class="form-control" placeholder="in cc" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-map-marker-alt icon"></i> -->
+              <label for="cyl" class="label">Cylinders</label>
+              <input name = "cyl", type="number" id="num" class="form-control" placeholder="No. of cylinders in Engine" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="mil" class="label">Mileage</label>
+                <input name="mil", type="number" step="any" id="num" class="form-control" placeholder="in KM/L" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-map-marker-alt icon"></i> -->
+              <label for="fuel" class="label">Fuel Capacity</label>
+              <input name = "fuel", type="number" step="any" id="num" class="form-control" placeholder="in Litres" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+              
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="fuel_t" class="label">Type of fuel required</label>
+                <select class="form-control" id="donotype" name="fuel_t" required>
+                <option value="" disabled selected>Fuel Type</option>
+                <option value="1">Petrol</option>
+                <option value="2">Diesel</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-map-marker-alt icon"></i> -->
+              <label for="hei" class="label">Height of the car</label>
+              <input name = "hei", type="number" step="any" id="num" class="form-control" placeholder="in mm" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="leng" class="label">Length of the car</label>
+                <input name="leng", type="number" step="any"  id="num" class="form-control" placeholder="in mm" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <label for="wid" class="label">Width of the car</label>
+              <input name = "wid", type="number" id="num"  step="any" class="form-control" placeholder="in mm" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="doors" class="label">No. of doors in the car</label>
+                <input name="doors", type="number" id="num" class="form-control" placeholder="No. of doors in the car" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <label for="powe" class="label">Power delivered by the Engine</label>
+              <input name = "powe", type="number" id="num" step="any"  class="form-control" placeholder="in Brake Horsepower" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+
+              <div class="row">
+
+          <div class="col-sm-6 mb-sm-4">
+            <div class="form-group mb-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="tor" class="label">Torque developed by the engine</label>
+                <input name="tor", type="number" id="num"  step="any"  class="form-control" placeholder="in Newton-Metre" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mb-4">
+            <div class="form-group mb-3" required>
+              <label for="seat_c" class="label">Seating Capacity of the Car</label>
+              <input name = "seat_c", type="number" id="num" class="form-control" placeholder="Seating Capacity" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+
+              </div>
+
+               <div class="row">
+
+          {{!-- <div class="col-sm-6 mb-sm-4"> --}}
+            <div class="form-group mb-4 mb-sm-3" required>
+              <!-- <i class="fas fa-plus-circle icon"></i> -->
+              <label for="wheel" class="label">Wheelbase of the car</label>
+                <input name="wheel", type="number" id="num"  step="any" class="form-control" placeholder="in mm" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" required>
+            {{!-- </div> --}}
+          </div>
+
+        </div>
+                {{!-- </div> --}}
+            </div>
+            <div class="row">
+            <div class="d-flex justify-content-between align-items-center mx-0 mt-2">
+                <a class="btn btn-primary" href="/" role="button" id="reg">Previous</a>
+                {{!-- <button type="button" class="btn btn-outline-primary" ">Previous </button> --}}
+                <button type="submit" class="btn btn-outline-primary" id="reg_sub">Submit </button>
+            </div>
+        </form>
+    </section>
+</div>

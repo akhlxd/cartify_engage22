@@ -1,0 +1,96 @@
+<nav class='navbar bg-light'>
+  <div class='container-fluid'>
+    <a class='navbar-brand' href='/'>CARtify</a>
+  </div>
+</nav>
+<h1 id='result'>Estimated Price: Rs {{price}}</h1>
+<p class="tex text-center">
+  The following graphs show how this car will perform in it's customer segment
+</p>
+<div class='container rescon'>
+  <div class='row'>
+    <div class='col d-flex justify-content-center align-items-center'>
+      <h4 class="text-center">
+        This Car will perform better than <em><strong</em>{{disp1}}%</strong></em> of the cars in Displacement in this customer segment
+      </h4>
+    </div>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='/graphs/graph1.html' frameborder='0'></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container rescon'>
+  <div class='row'>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='graphs/graph2.html' frameborder='0'></iframe>
+      </div>
+    </div>
+    <div class='col d-flex justify-content-center align-items-center'>
+      <h4 class="text-center">
+        This Car will perform better than <em><strong</em>{{mil1}}%</strong></em> of the cars in terms of mileage in this customer segment
+      </h4>
+    </div>
+  </div>
+</div>
+
+<div class='container rescon'>
+  <div class='row'>
+    <div class='col d-flex justify-content-center align-items-center'>
+      <h4 class="text-center">
+        This Car will perform better than <em><strong</em>{{fuel1}}%</strong></em> of the cars in terms of Fuel Tank Capacity in this customer segment
+      </h4>
+    </div>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='graphs/graph3.html' frameborder='0'></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container rescon'>
+  <div class='row'>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='graphs/graph4.html' frameborder='0'></iframe>
+      </div>
+    </div>
+    <div class='col d-flex justify-content-center align-items-center'>
+      <h4 class="text-center">
+        This Car will perform better than <em><strong</em>{{powe1}}%</strong></em> of the cars in terms of Power in this customer segment
+      </h4>
+    </div>
+  </div>
+</div>
+
+<div class='container rescon'>
+  <div class='row'>
+    <div class='col d-flex justify-content-center align-items-center'>
+      <h4 class="text-center">
+        This Car will perform better than <em><strong</em>{{tor1}}%</strong></em> of the cars in terms of Torque in this customer segment
+      </h4>
+    </div>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='graphs/graph5.html' frameborder='0'></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- <div class='container rescon'>
+  <div class='row'>
+    <div class='col-7'>
+      <div class='ratio ratio-4x3'>
+        <iframe src='graphs/graph6.html' frameborder='0'></iframe>
+      </div>
+    </div>
+    <div class='col'>
+
+    </div>
+  </div>
+</div> --}}
