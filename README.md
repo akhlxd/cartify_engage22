@@ -11,7 +11,7 @@
 - [Future Work](#future-work)
 - [Getting Started](#getting-started)
 - [Gallery](#gallery)
-- [References](#references)
+- [Conclusion](#conclusion)
 
 ## Microsoft Engage-2022
 * The Challenge
@@ -74,6 +74,15 @@ Have NodeJS and Python (pip installation) installed on your machine.
    ```
    if u have nodemon installed
 5. You should get a console log saying 'Server started on port 5000', you can view your website on [http://localhost:5000](http://localhost:5000)
+
+## Gallery
+<p align ="center" ><img src="https://i.imgur.com/6hz7GmZ.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/jZtCGOd.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/czDbAIf.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/vKWSvB3.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/6qmy6yh.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/Ft7LwBx.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/ivIYCJZ.png" height="350px" alt="Homepage"/></p>
 
 
 ## Conclusion
