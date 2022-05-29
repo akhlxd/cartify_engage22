@@ -83,6 +83,7 @@ Have NodeJS and Python (pip installation) installed on your machine.
 <p align ="center" ><img src="https://i.imgur.com/6qmy6yh.png" height="350px" alt="Homepage"/></p>
 <p align ="center" ><img src="https://i.imgur.com/Ft7LwBx.png" height="350px" alt="Homepage"/></p>
 <p align ="center" ><img src="https://i.imgur.com/ivIYCJZ.png" height="350px" alt="Homepage"/></p>
+<p align ="center" ><img src="https://i.imgur.com/6SyUKXe.png" height="350px" alt="Homepage"/></p>
 
 
 ## Conclusion
